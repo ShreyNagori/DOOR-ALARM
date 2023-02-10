@@ -1,0 +1,33 @@
+Project Title: Door Buzzer Alarm with Ultrasonic Sensor
+
+Objective: The goal of this project is to design a door buzzer alarm system that uses an Arduino microcontroller and an Ultrasonic Sensor (HC-SR04) to detect the presence of someone at the door. 
+The system will alert the homeowner with a buzzer sound whenever someone is at the door.
+
+Components:
+Arduino Uno
+Ultrasonic Sensor (HC-SR04)
+Piezo Buzzer
+Jumper Wires
+Breadboard
+Functionality:
+
+The Ultrasonic Sensor (HC-SR04) will be used to measure the distance from the door to the sensor. 
+When the distance is below a certain threshold, it will trigger the piezo buzzer to sound an alarm. 
+The buzzer will continue to sound until the distance goes back above the threshold, indicating that the person has left the door. 
+The Arduino Uno will be used to control the Ultrasonic Sensor and the piezo buzzer.
+
+Setup:
+Connect the Ultrasonic Sensor (HC-SR04) to the Arduino board.
+Connect the piezo buzzer to the Arduino board.
+Connect the jumper wires to the appropriate pins on the Arduino board, Ultrasonic Sensor, and piezo buzzer.
+Upload the code to the Arduino board.
+
+Code:
+The code for the door buzzer alarm will be written in the Arduino Integrated Development Environment (IDE). 
+The code will use the libraries for the Ultrasonic Sensor and the piezo buzzer to measure the distance and sound the alarm. 
+The code will include conditional statements to ensure that the buzzer only sounds when someone is at the door.
+
+Conclusion:
+The door buzzer alarm system using an Arduino and an Ultrasonic Sensor is a more advanced solution for alerting homeowners of incoming visitors. 
+This system combines the capabilities of both the Ultrasonic Sensor and the piezo buzzer to create a reliable and efficient door monitoring system. 
+With its easy setup and customizable code, this system is a great choice for anyone looking to improve their home security
